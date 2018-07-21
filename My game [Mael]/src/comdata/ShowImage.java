@@ -15,7 +15,7 @@ public class ShowImage extends Panel {
 
 	  public ShowImage(String background) {
 	    try {
-	      image = ImageIO.read(new File(background));
+	      image = ImageIO.read(new File("background.jpg"));
 	    } catch (IOException ie) {
 	      ie.printStackTrace();
 	    }
